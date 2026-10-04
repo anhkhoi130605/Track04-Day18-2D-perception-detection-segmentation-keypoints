@@ -1,0 +1,19 @@
+# Weights và dataset tự tải khi chạy notebook
+*.pt
+datasets/
+
+# Kết quả train / file trung gian (sinh lại được)
+runs/
+runs_lab/
+autolabel/
+tiger-pose-anat.yaml
+tiger-pose-mirror.yaml
+tiger-pose-mirror/
+submission.zip
+
+# Python / Jupyter / macOS
+__pycache__/
+.ipynb_checkpoints/
+.venv*/
+.DS_Store
+.idea/
